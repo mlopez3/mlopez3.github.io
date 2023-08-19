@@ -1,0 +1,93 @@
+circle.outer {
+    fill: #4e1354;
+}
+circle.inner {
+    fill: #ffffff;
+}
+
+.area {
+    fill:  #7498c9;
+    stroke:  #112a84;
+    fill-opacity: 0.75
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flourish-popup {
+    pointer-events: none;
+}
+
+.circles {
+    pointer-events: all;
+}
+
+body {
+    background-color: #fdf9ee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header{
+    font-size: 1.5rem;
+    letter-spacing: -0.03rem;
+    padding: 1em;
+    text-align: left;
+}
+
+.flourish-popup-content {
+    font-size: 0.8rem;
+    color: #333;
+    }
+
+.flourish-popup-content h2 {
+    text-align: center;
+    margin: 0.25rem 0;
+}
+
+#description {
+    font-size: 1rem;
+    letter-spacing: -0.03rem;
+    padding: 1em;
+    text-align: left;
+    padding-left: 3em;
+}
+
+.opaque {
+    fill-opacity: 0.25;
+    stroke-opacity: 0.25;
+}
+
+.left_map {
+    fill:  none;
+    stroke:  #dc0b58;
+    stroke-dasharray: 2;
+}
+
+.right_map {
+    fill:  none;
+    stroke:  #14b614;
+    stroke-dasharray: 3;
+}
+
+.hidden {
+    fill-opacity: 0;
+    stroke-opacity: 0;
+}
+
+.menu .items {
+    display: flex;
+    }
+
+.menu .item {
+    padding: 0 1rem;
+    padding-left: 3em;
+    color: #333;
+    opacity: 0.5;
+    }
+
+.menu .item.selected, .menu .item:hover {
+    opacity: 1;
+    }
+    

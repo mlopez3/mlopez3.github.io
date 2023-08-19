@@ -1,8 +1,48 @@
-<head>
-    <title>Title</title>
-    <script src="https://d3js.org/d3-selection.v1.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lattice Viz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=s\
+wap" rel="stylesheet">
 
-</head>
-<body>
-    <p> test </p>
-</body>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="header">Distributed Lattice Visualization</div>
+
+      <div id="controls">
+        <div class="menu">
+          <div class="items"></div>
+        </div>
+      </div>
+
+      <div id="description"></div>
+
+      <svg width="1000" height="1000"> 
+
+        <g id="maps1"></g>
+        <g id="maps2"></g>
+
+        <g id="lattice1">
+          <g id="edges1" transform="translate(200,0)"></g>
+          <g id="nodes1" transform="translate(200,0)" ></g>
+        </g>
+
+        <g id="lattice2">
+          <g id="edges2" transform="translate(700,0)"></g>
+          <g id="nodes2" transform="translate(700,0)" ></g>
+        </g>
+      </svg>
+    </div>
+    
+    <script src="js/lib/d3.min.js"></script>
+    <script src="js/lib/popup-v1.1.1.min.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
